@@ -7,7 +7,7 @@
 }
 body{
 background-color: var(--background-color);
-background: url("../images/bg1.png");
+background: url("../images/bg3.svg");
 background-size: cover;
 background-repeat: no-repeat;
 padding: 50px 50px 50px 20px;
@@ -57,7 +57,7 @@ h1{
 #identites:hover,#reseaux:hover,#produits:hover{
 
     /* border: 2px solid rgba(0, 0, 0, 0.361); */
-    box-shadow: 0px 0px 50px 0px #f3054533;
+    box-shadow: 0px 0px 100px 0px #f3054527;
     /* box-shadow: 0 0 50px #0003; */
 }
 
