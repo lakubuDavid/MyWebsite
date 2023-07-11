@@ -7,6 +7,9 @@
 }
 body{
 background-color: var(--background-color);
+background: url("../images/bg1.png");
+background-size: cover;
+background-repeat: no-repeat;
 padding: 50px 50px 50px 20px;
 font-family: Nunito;
 }
@@ -35,13 +38,14 @@ h1{
     /* background-color: white; */
     font-weight: 600;
     letter-spacing: 1px;
-    color:rgb(0, 0, 0);
+    color:#fff;
 
 }
 
 #identites,#reseaux,#produits{
-    background-color: rgb(255, 255, 255);
-    /* color:#fff; */
+    background-color: #0004;
+    backdrop-filter: blur(8px);
+    color:#fff;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
