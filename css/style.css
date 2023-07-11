@@ -7,7 +7,7 @@
 }
 body{
 background-color: var(--background-color);
-background: url("../images/bg3.svg");
+background: url("../images/bg6.svg");
 background-size: cover;
 background-repeat: no-repeat;
 padding: 50px 50px 50px 20px;
@@ -15,7 +15,7 @@ font-family: Nunito;
 }
 
 h1{
-    color:rgb(250, 2, 85);
+    color:#3668b4;
 }
 
 #menu{
@@ -38,27 +38,29 @@ h1{
     /* background-color: white; */
     font-weight: 600;
     letter-spacing: 1px;
-    color:#fff;
+    /* color:#fff; */
 
 }
 
 #identites,#reseaux,#produits{
-    background-color: #0004;
+    background-color: #ffffff6f;
     backdrop-filter: blur(8px);
-    color:#fff;
+    /* color:#fff; */
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 20px;
     border-radius: 5px;
     /* border: 2px solid rgba(0, 0, 0, 0.361); */
-    box-shadow: 0px 0px 50px -20px #f305451b;
+    box-shadow: 0px 0px 50px 0px #0003;
 }
 
 #identites:hover,#reseaux:hover,#produits:hover{
 
     /* border: 2px solid rgba(0, 0, 0, 0.361); */
-    box-shadow: 0px 0px 100px 0px #f3054527;
-    /* box-shadow: 0 0 50px #0003; */
+    box-shadow: 0px 0px 100px 0px #1484fc1b;
+    box-shadow: 0 0 50px #0003;
 }
 
 #identites table tr{
@@ -76,7 +78,7 @@ h1{
 }
 
 h2{
-    color:#ea7687;
+    color:#4a7dca;
     margin-top: 15px;
     margin-bottom: 15px;
 }
