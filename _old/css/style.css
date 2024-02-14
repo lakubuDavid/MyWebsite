@@ -3,11 +3,13 @@
     margin: 0px;
     transition: all 300ms ease-in-out;
 
-    --background-color : #eee;
+    --background-color : #353535;
+    --text-color : #fff;
 }
 body{
 background-color: var(--background-color);
-background: url("../images/bg6.svg");
+color : var(--text-color);
+/* background: url("../images/bg6.svg"); */
 background-size: cover;
 background-repeat: no-repeat;
 padding: 50px 50px 50px 20px;
@@ -43,7 +45,7 @@ h1{
 }
 
 #identites,#reseaux,#produits{
-    background-color: #ffffff6f;
+    /* background-color: #ffffff6f; */
     backdrop-filter: blur(8px);
     /* color:#fff; */
     margin-top: 30px;

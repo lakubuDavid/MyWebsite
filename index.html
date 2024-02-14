@@ -1,56 +1,34 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.mobile.css" />
 
-<head>
-	<meta charset="utf-8">
-	<title>Lakubu David</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
+        <!-- <script src="https://kit.fontawesome.com/1a38361ed6.js" crossorigin="anonymous"></script> -->
+        <title>David Lakubu</title>
+    </head>
 
-<body>
+    <body data-barba="wrapper">
+        <div id="blob" class="follow-cursor"></div>
 
-	<div id="menu">
-		<h1>
-			My business Card
-		</h1>
-		<a href="index.html">Home</a>
-		<a href="services.html">Services</a>
-	</div>
-	<div id="identites">
-		<h2>Identités</h2>
+        <div id="main-view"  data-barba="container" data-barba-namespace="home">
+            <div id="hero">
+                Let's <span class="hero-special">make</span> your
+                <span class="hero-special">Ideas</span>
+                <span class="hero-special">Reality</span>
+            </div>
+        </div>
+        <!-- <button id="menu-toggle">
+            <img src="./assets/img/menu-icon.svg"/>
+        </button> -->
+            <home-menu></home-menu>
+        <menu-toggle></menu-toggle>
+        <div id="cursor" class="follow-cursor"></div>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script> -->
+        <!-- <script src="https://unpkg.com/@barba/core"></script> -->
 
-		<table>
-			<tr>
-				<td><img src="images/profile/profile2.jpg" alt="Photo de profile"></td>
-				<td>
-					<p>
-						<strong>Nome : </strong>LAKUBU<br>
-						<strong>Postnom : </strong>MAYANDA<br>
-						<strong>Prenom : </strong>David<br>
-						<strong>Pseudo : </strong>Kubula D<br>
-						<strong>Job titla : </strong>Backend developper<br>
-						<strong>Entreprise : </strong>Lakubu David<br>
-					</p>
-				</td>
-			</tr>
-		</table>
-		<h2>Contacts</h2>
-		<p>
-			<strong>Téléphone: </strong>
-			+243 990 453 776<br>
-			<strong>Email : </strong>
-			david@lakubudavid.com<br>
-		</p>
-	</div>
-	<div id="reseaux">
-
-		<h2>Réseaux sociaux</h2>
-		<p>
-			<strong>Whatsapp : </strong>+243 828070049<br>
-			<!-- <strong>Facebook : </strong>facebook.com/lui_meme<br> -->
-			<strong>Thread : </strong>@_kubula.d_<br>
-		</p>
-	</div>
-</body>
-
+        <script type="module" src="assets/js/app.js"></script>
+    </body>
 </html>

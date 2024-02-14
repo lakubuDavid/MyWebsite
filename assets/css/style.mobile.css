@@ -1,0 +1,35 @@
+@media (max-width:900px){
+    #hero{
+        font-size: 7em;
+        text-align: center;
+        padding: 100px;
+    }
+
+    #menu{
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        left:100vw;
+    }
+
+    #main-view{
+    }
+
+    #main-view section{
+        padding: 20px;
+    }
+
+    #main-view section:nth-child(1){
+        padding-top: 50px;
+    }
+
+    .menu-item{
+        height: fit-content;
+
+    }
+    .menu-item > *{
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
