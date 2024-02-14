@@ -33,9 +33,11 @@ export class SkillList extends BaseComponent {
 
     return html`
       <div class="skills-list">
+        <p>
         ${
         skills
         }
+        </p>
       </div>
     `
   }
