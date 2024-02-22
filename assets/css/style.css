@@ -21,6 +21,9 @@ a {
   text-decoration: none;
   color: #fff;
 }
+a[href="#"]{
+    color:#aaa;
+}
 a:hover {
   text-decoration: none;
   color: #fff;
