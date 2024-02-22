@@ -15,14 +15,14 @@ export class HomeMenu extends LitElement {
         return html`
           <!-- <div id="home-button">
            <a href="/">
-            <img src="./assets/img/Home icon.svg" />
+            <img src="./assets/img/home-icon.svg" />
            </a>
            </div>
            -->
             <div id="menu">
                 <div class="menu-item" id="portfolio">
                     <a class="menu-link" href="/">
-                      <img width="64px" height="64px" src="./assets/img/Home icon.svg" />
+                      <img width="64px" height="64px" src="./assets/img/home-icon.svg" />
                       Home
                     </a>
                 </div>
