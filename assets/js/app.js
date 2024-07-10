@@ -144,7 +144,7 @@ function followCursor(ev) {
 }
 
 function toggleMenu() {
-  console.log("Clicked");
+  // console.log("Clicked");
   const menu = document.querySelector("#menu");
 
   menuShown = !menuShown;
@@ -152,6 +152,6 @@ function toggleMenu() {
   if (menuShown) menu?.classList.add("show");
   else menu?.classList.remove("show");
 
-  console.log(menuShown);
-  console.log(menu);
+  // console.log(menuShown);
+  // console.log(menu);
 }
