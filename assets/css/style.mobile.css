@@ -32,4 +32,8 @@
         align-items: center;
         padding: 20px;
     }
+
+    .follow-cursor{
+        display: none;
+    }
 }
