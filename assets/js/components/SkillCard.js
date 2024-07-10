@@ -5,7 +5,8 @@ export class SkillCard extends BaseComponent {
   static properties = {
     level: { type: String },
     since: { type: String },
-    skill: { type: String }
+    skill: { type: String },
+    content: { type: String }
   }
   constructor() {
     super()
@@ -19,8 +20,11 @@ export class SkillCard extends BaseComponent {
         <h2>${this.skill || ""}</h2>
         <span>
           ${this.since ? ("Since " + this.since + " |") : ""}
-          ${this.level ? this.level : ""}
+          ${this.level ?? ""}
         </span>
+        <p class="skill-card-content">
+          ${this.content ?? ""}
+        </p>
         <slot></slot>
       </div>
     </div>
