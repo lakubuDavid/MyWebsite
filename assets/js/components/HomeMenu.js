@@ -22,7 +22,7 @@ export class HomeMenu extends LitElement {
             <div id="menu">
                 <div class="menu-item" id="portfolio">
                     <a class="menu-link" href="/">
-                      <img width="64px" height="64px" src="./assets/img/Home icon.svg" />
+                      <img width="64px" height="64px" src="./assets/img/home-icon1.svg" />
                       Home
                     </a>
                 </div>
