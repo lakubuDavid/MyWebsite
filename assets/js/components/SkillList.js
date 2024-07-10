@@ -37,7 +37,7 @@ export class SkillList extends BaseComponent {
         since: "2024",
         level: "Basic",
         content: "Fell in love with it right away.\
-        I have use it for the backend of one of my personal project and it's soooo good.\
+        I use it for the backend of one of my personal project and it's soooo good.\
         Even made a small tool in it : Moddo a small tool that generates classes in different languages from a schema (heavily inspired by prisma)\
         I would like to dive deeper in it for other projects soon."
       },
