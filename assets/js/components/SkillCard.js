@@ -1,27 +1,29 @@
 import { html, css } from '../lit/lit-core.min.js';
 import { BaseComponent } from './BaseComponent.js';
 
-export class SkillCard extends BaseComponent{
-  static  properties = {
-    value : {type:Number},
-    since : {type:String},
-    skill : {type:String}
+export class SkillCard extends BaseComponent {
+  static properties = {
+    level: { type: String },
+    since: { type: String },
+    skill: { type: String }
   }
-  constructor(){
+  constructor() {
     super()
     this.since = ""
     this.skill = ""
   }
-  render(){
+  render() {
     return html`
+    <div>
       <div class="skill-card">
-          <h2>${this.skill || ""}</h2>
-          <span>
-            ${this.since ? ("Since "+ this.since + " |") : "" }
-            ${this.value ? this.value + "%" : ""}
-          </span>
-          <slot></slot>
+        <h2>${this.skill || ""}</h2>
+        <span>
+          ${this.since ? ("Since " + this.since + " |") : ""}
+          ${this.level ? this.level : ""}
+        </span>
+        <slot></slot>
       </div>
+    </div>
       `
   }
 

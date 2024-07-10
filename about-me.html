@@ -15,63 +15,69 @@
             data-barba="container"
             data-barba-namespace="about-me"
         >
-            <section>
+            <section id="about-me-section">
                 <h1>About Me</h1>
+                <section id="content">
+                    <p>
+                        Hi there, My names David <br />
+                        Currently student at the University of Mascareignes in
+                        Mauritus,<br />
+                        Web developper and Game dev as well <br />
+                    </p>
+                    <p>
+                        I'have been programming since I was 15 and Oh boy it was a
+                        long journey <br />
+                    </p>
+                    <p>Ready to work on your next world changing Idea.</p>
+                    <p>
+                        <skill-card skill="Python">
+                            <p>
+                                My first language <br />
+                                I've been using it to test algorithm and to automate
+                                small tasks or do some web scrapping.
+                            </p>
+                        </skill-card>
+                    </p>
+                    <p>
+                        <skill-card skill="Lua">
+                            <p>
+                                How can anyone hate this language ;Simple,easy,powerful <br />
+                                So many reasons that made me fall in love with this
+                                language <br /><br>
+                                I have used it for personal projects ,small tools and
+                                backends with lapis <br />
+                                Even video games with Love2D.
+                                Like one with a cat but I can't really call it a game ... and tic tac toe
+                            </p>
+                        </skill-card>
+                    </p>
+                    <p>
+                        <skill-card skill="Figma">
+                            <p>
+                                I have been using it to design websites Ideas ,<br>
+                                design projects structure with figjam and even create basic assets and icons for projects
+                            </p>
+                        </skill-card>
+                    </p>
+                    <p>
+                        <skill-card skill="Godot">
+                            <p>
+                                Simple yet powerful game engine that fits a lot of needs <br>
+                                I have made a couple of game with it ... all trash but hey <br>
+                                At least I know how to use it
+                            </p>
+                        </skill-card>
+                    </p>
+                    <skill-list></skill-list>
+                </section>
             </section>
-            <section id="content">
-                <p>
-                    Hi there, My names David <br />
-                    Currently student at the University of Mascareignes in
-                    Mauritus,<br />
-                    Web developper and Game dev as well <br />
-                </p>
-                <p>
-                    I'have been programming since I was 15 and Oh boy it was a
-                    long journey <br />
-                </p>
-                <p>Ready to work on your next world changing Idea.</p>
-                <p>
-                    <skill-card skill="Python">
-                        <p>
-                            My first language <br />
-                            I've been using it to test algorithm and to automate
-                            small tasks or do some web scrapping.
-                        </p>
-                    </skill-card>
-                </p>
-                <p>
-                    <skill-card skill="Lua">
-                        <p>
-                            How can anyone hate this language ;Simple,easy,powerful <br />
-                            So many reasons that made me fall in love with this
-                            language <br /><br>
-                            I have used it for personal projects be it tools or
-                            backends with lapis <br />
-                            Even video games with Love2D.
-                        </p>
-                    </skill-card>
-                </p>
-                <p>
-                    <skill-card skill="Godot">
-                        <p>
-                            Simple yet powerful game engine that fits a lot of needs <br>
-                            I have made a couple of game with it with a few being available right now.
-                        </p>
-                    </skill-card>
-                </p>
-                <!-- <skill-list></skill-list> -->
-            </section>
-        </div>
-        <home-menu></home-menu>
-        <menu-toggle></menu-toggle>
-
-        <div id="cursor" class="follow-cursor"></div>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script> -->
+            </div>
+            <home-menu></home-menu>
+            <menu-toggle></menu-toggle>
+            
+            <div id="cursor" class="follow-cursor"></div>
+            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script> -->
         <!-- <script src="https://unpkg.com/@barba/core"></script> -->
         <script type="module" src="assets/js/app.js"></script>
-        <script type="module">
-          import "/assets/js/components/SkillCard.js"
-          import "/assets/js/components/SkillList.js"
-        </script>
     </body>
 </html>

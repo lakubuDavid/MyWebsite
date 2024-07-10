@@ -2,6 +2,9 @@
 import "./barba/core.js"
 import { gsap, MotionPathPlugin } from "./gsap/esm/all.js"
 
+
+import "./components/SkillCard.js"
+import "./components/SkillList.js"
 import "./components/HomeMenu.js"
 import "./components/MenuToggle.js"
 
