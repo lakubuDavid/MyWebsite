@@ -125,7 +125,7 @@ function followCursor(ev) {
   const cursor = document.querySelector("#cursor");
   const { x, y, target } = ev;
   // cursorScaling = document.querySelector(".menu-link:hover") ? 5 : 1;
-  cursorScaling = target?.closest(".menu-link") ? 5 : 1;
+  cursorScaling = target?.closest(".cursor-hover-effect") ? 5 : 1;
 
   gsap.to(followCursor, {
     x: x - 10,
