@@ -35,7 +35,7 @@ export class HomeMenu extends LitElement {
                 <div class="menu-item" id="projects">
                     <a class="menu-link cursor-hover-effect" href="#">
                       <img width="64px" height="64px" src="/assets/img/projects-icon.svg" />
-                      Projects
+                      Projects (TODO)
                     </a>
                 </div>
                 <div class="menu-item" id="contact">
